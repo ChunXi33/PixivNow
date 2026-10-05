@@ -1,10 +1,8 @@
 packages:
   - .
 
-packageExtensions:
-  'vue-i18n@11.4.13':
-    dependencies:
-      '@intlify/shared': '11.4.9'
+overrides:
+  '@intlify/shared': 11.4.9
 
 allowBuilds:
   '@parcel/watcher': true
